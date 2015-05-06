@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Function">
+
+
+
+
+<test name="negative Login">
+    <classes>
+        <class name="LoginFunction.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="positive Login">
+    <classes>
+        <class name="LoginFunction.LoginTest2" ></class>  
+    </classes>
+</test>
+
+</suite>
